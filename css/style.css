@@ -4,7 +4,7 @@ body{
 font-family: 'Mukta', sans-serif;
 height:100vh;
 min-height:550px;
-background: url('images/1114362.png') no-repeat;
+background: url('../images/1114362.png') no-repeat;
 background-size: cover;
 background-position:center;
 position:relative;
