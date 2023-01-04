@@ -10,6 +10,7 @@
   <link href="./css/carousel.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/blog.css">
   <link rel="stylesheet" href="./css/thumbnail.css">
+  <link rel="stylesheet" href="./css/headers.css">
 </head>
 
 <body>
@@ -39,9 +40,16 @@
             <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..."
               aria-label="Search">
           </form>
-          <div class="text-end">
-            <a href="./login.html"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
-            <a href="./upload.html"><button type="button" class="btn btn-warning">Contributor</button></a>
+          <div class="flex-shrink-0 dropdown">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="./images/icon.webp" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small shadow dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Buat Kursus</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Log out</a></li>
+            </ul>
           </div>
         </div>
       </div>
